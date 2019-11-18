@@ -69,3 +69,5 @@ Different auto-formatters can yield different outputs, but they are highly custo
 - [ Kevin Peters: Auto formatters for Python ]( https://www.kevinpeters.net/auto-formatters-for-python )
 
 - [ PEP 8 -- Style Guide for Python Code ]( https://www.python.org/dev/peps/pep-0008/ )
+
+- [ YAPF Online Demo ]( https://yapf.now.sh/ )
