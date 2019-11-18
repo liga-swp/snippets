@@ -18,7 +18,7 @@
 - [`yapf`](https://github.com/google/yapf)
 
 Check out [this](https://www.kevinpeters.net/auto-formatters-for-python) blog post for more details.
-Chances are quite high that your editor supports one of the above formatters via a plugin.
+Chances are high your editor supports one of the above formatters via a plugin.
 
 ---
 
@@ -30,7 +30,7 @@ pip install autopep8
 Let us consider an arbitrary piece of Python code, for instance the following function that returns the sum of its 5 inputs (script [`poor_format.py`](./poor_format.py)):
 ```python
 def sum_five_arguments(argument1, argument2, argument3 , keyword_argument1=123, keyword_argument2 = 5):
-    """Returns a sum of all arguments."""
+    """Return sum of five arguments."""
     sum_of_args=argument1+argument2+argument3+keyword_argument1 + keyword_argument2
     return sum_of_all_args
 ```
@@ -39,7 +39,7 @@ Beside lacking elegance, this code suffers from poor readability caused by forma
 - Very long lines
 - Inconsistent conventions for spaces between arguments/operators
 
-The optical quality of this code can easily be improved by running `autopep8`:
+The optical quality of this code can easily be improved by invoking `autopep8`:
 ```bash
 autopep8 --inplace --aggressive --aggressive poor_format.py
 ```
@@ -60,9 +60,9 @@ def sum_five_arguments(
 ```
 Congratulations! The formatting issues were consistently resolved.
 
-Different auto-formatters can yield different outputs, but they are highly customizable. 
-
 ---
+
+Different auto-formatters can yield different outputs, but they are highly customizable. 
 
 **Links:**
 
