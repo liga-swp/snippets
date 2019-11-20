@@ -2,7 +2,7 @@ This repository contains a collection of 'teasers' for interesting software deve
 
 1) [Auto-formatting](./snippets/01_auto_formatting.md)
 2) TODO
-3) TODO
+3) [Writing tests and run them frequently](./snippets/03_pytest_git_hooks.md)
 4) TODO
 5) TODO
 6) TODO
