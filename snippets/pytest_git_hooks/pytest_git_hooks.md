@@ -64,27 +64,22 @@ def test_add_100_plus_neg1():
 
 We can now run pytest (setting the verbose flag `-v` for a more comprehensible output)
 ```bash
-pytest -x tests.py
+pytest -v tests.py
 ```
 ```bash
 ================================================= test session starts =================================================
 (some version info)
 
 collected 2 items                                                                                                     
-kkk
+
 tests.py::test_add_2_plus_2 PASSED                                                                              [ 50%]
 tests.py::test_add_100_plus_neg1 PASSED                                                                         [100%]
 
 ============================================== 2 passed in 0.01 seconds ===============================================
 ```
-Great, the tests are passing. But it would be better if they were triggered automatically at a certain point in the development cycle
+Great, the tests are passing. But it would be better if they were triggered automatically at a certain point in the development cycle.
 
-We will install a `git` pre-commit hook that runs the test and only allows the changes to be commited if the tests are passing. [`pre-commit.sh`](pre-commit.sh) requires paths relative to the project directory:
-```bash
-# Run tests before committing
-pytest -v snippets/pytest_git_hooks/tests.py
-```
-
+We will install a `git` pre-commit hook that runs the test and only allows the changes to be commited if the tests are passing. [`pre-commit.sh`](pre-commit.sh) requires paths relative to the project directory.
 For the script to be triggered before a call to `git commit`, copy it into the hooks directory:
 ```bash
 # make executable
