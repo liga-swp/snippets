@@ -84,7 +84,7 @@ For the script to be triggered before a call to `git commit`, copy it into the h
 ```bash
 # make executable
 chmod u+x pre-commit.sh
-cp pre-commit.sh ../../.git/hooks
+cp pre-commit ../../.git/hooks
 ```
 
 If the tests fail, the commit will be rejected.
