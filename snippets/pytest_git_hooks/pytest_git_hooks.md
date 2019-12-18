@@ -79,11 +79,11 @@ tests.py::test_add_100_plus_neg1 PASSED                                         
 ```
 Great, the tests are passing. But it would be better if they were triggered automatically at a certain point in the development cycle.
 
-We will install a `git` pre-commit hook that runs the test and only allows the changes to be commited if the tests are passing. [`pre-commit.sh`](pre-commit.sh) requires paths relative to the project directory.
+We will install a `git` pre-commit hook that runs the test and only allows the changes to be commited if the tests are passing. [`pre-commit`](pre-commit) requires paths relative to the project directory.
 For the script to be triggered before a call to `git commit`, copy it into the hooks directory:
 ```bash
 # make executable
-chmod u+x pre-commit.sh
+chmod u+x pre-commit
 cp pre-commit ../../.git/hooks
 ```
 
