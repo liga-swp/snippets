@@ -1,4 +1,4 @@
-# Title
+# Zen of Python
 
 **What:** Idiomatic principles guiding both the design and usage of python.
 
