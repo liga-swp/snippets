@@ -3,7 +3,7 @@ This repository contains a collection of 'teasers' for interesting software deve
 1) [Auto-formatting](./01_auto_formatting/auto_formatting.md)
 2) [Git Branches](./02_git_branches/git_branches.md)
 3) [Write tests and run them frequently](./03_pytest_git_hooks/pytest_git_hooks.md)
-4) Writing docstrings?
+4) [Docstrings](./04_docstrings/docstrings.md)
 5) Git branches?
 6) Python linter
 7) Pytest extended functionality?
