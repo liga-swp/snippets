@@ -15,7 +15,7 @@ that have influenced (and continue to influence) the design of python and the
 idioms of what *idiomatic* python code should look like. It can be shown anytime
 in the python interpreter:
 
-```python
+```
 >>> import this
 The Zen of Python, by Tim Peters
 
