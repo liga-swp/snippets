@@ -41,7 +41,7 @@ Namespaces are one honking great idea -- let's do more of those!
 ```
 
 Of course, some of these ideas are very subjective. After all, this is a piece of
-poesie and not a strict rule book that must zealously be followed to the point.
+poetry and not a strict rule book that must zealously be followed to the point.
 Nevertheless it might give you some general ideas and input on how to structure
 your code. Some of these ideas will also become clearer the more experience you
 have with programming.
