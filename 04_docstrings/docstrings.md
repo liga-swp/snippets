@@ -112,3 +112,4 @@ documentation for your project.
 - [PEP 257 -- Docstring Conventions](https://www.python.org/dev/peps/pep-0257/)
 - [pydoc](https://docs.python.org/3/library/pydoc.html)
 - [sphinx](https://www.sphinx-doc.org/)
+- [realpython: documenting Python code](https://realpython.com/documenting-python-code/)
