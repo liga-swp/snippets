@@ -13,3 +13,8 @@ This repository contains a collection of 'teasers' for interesting software deve
 10) Writing a `setup.py` / flint
 11) Testing on travis
 12) 
+
+For those who want to dig into Python:
+
+- [python-cheatsheet](https://gto76.github.io/python-cheatsheet/)
+- [wtfpython](https://github.com/satwikkansal/wtfpython): Exploring and understanding Python through surprising snippets
