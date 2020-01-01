@@ -18,3 +18,5 @@ For those who want to dig into Python:
 
 - [python-cheatsheet](https://gto76.github.io/python-cheatsheet/)
 - [wtfpython](https://github.com/satwikkansal/wtfpython): Exploring and understanding Python through surprising snippets
+- [clean-code-python](https://github.com/zedr/clean-code-python)
+- [code style](https://docs.python-guide.org/writing/style/)
