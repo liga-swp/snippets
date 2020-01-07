@@ -77,6 +77,17 @@ def fib(n):
 Note that we put the leading and trailing quotes on separate lines in the case of
 multi-line docstrings.
 
+**Docstring Style**
+Unfortunately, there is no unique style to writing and formating these docstrings,
+but several. They only difer slightly, but it might be valuable to adopt a fixed
+style for a project.
+
+You can check out for example https://stackoverflow.com/a/24385103 for an overview
+of different styles and what they would look like.
+
+Note, that you can also use your editor to help you create those docstrings faster.
+See for example https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+for VS Code.
 
 **Accessing docstrings**
 
