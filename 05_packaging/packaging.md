@@ -13,7 +13,6 @@ its dependencies, such that they can later be installed automatically.
 - [setuptools](https://setuptools.readthedocs.io/)
 - [pip](https://pip.pypa.io/)
 - [twine](https://twine.readthedocs.io/)
-- ([flit](https://flit.readthedocs.io/))
 
 ---
 
@@ -124,16 +123,39 @@ package files before publishing it on a public directory!
 And finally, once you're done, you can publish your package as follows:
 
 ```bash
-twine upload dist/<package-name>-<version>.tar.gz \
-             dist/<package-name>-<version>-<platform>.whl
+twine upload dist/<NAME>-<VERSION>.tar.gz \
+             dist/<NAME>-<VERSION>-<PLATFORM>.whl
 ```
 
 Of course, this only works after setting up a [PyPI](https://pypi.org) user
-account.
+account. You can also create an account on [Test PyPI](https://test.pypi.org)
+where you can test upload your packages to check how they will look on the
+PyPI.
 
+---
+
+***Some additional remarks***
+
+- some packages use `distutils` instead of `setuptools`, because distutils is
+  included in python's stdlib and setuptools is not. Don't be taunted by that
+  fact! I recommend *always* using setuptools, as it has [more powerful
+  functionality](https://setuptools.readthedocs.io/en/latest/setuptools.html#new-and-changed-setup-keywords)
+  and avoids some of the weird behaviours of distutils. Also, if installing a
+  package with pip, you can depend on setuptools being available anyway.
+
+- the difference between *source distributions* (`python setup.py sdist`) and
+  wheels (`python setup.py bdist_wheel`) is that wheels are optimized as
+  installation format. When installing a wheel, the installer (e.g. pip) won't
+  need to execute a `setup.py`, and thus becomes independent from the
+  toolchain needed to create your package (e.g. distutils, setuptools, flit,
+  or any other). This format also allows releasing platform specfic prebuilt
+  files, such as DLLs or shared objects. But even if your package is the
+  simplest pure python code, I always recommend providing a wheel for simplicity.
 
 ---
 
 **Links:** References and links to used materials and further reading
 
 - [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/), the official guide
+- [flit](https://flit.readthedocs.io/) an alternative to setuptools, with simplified workflow
+- [New and Changed `setup()` Keywords](https://setuptools.readthedocs.io/en/latest/setuptools.html#new-and-changed-setup-keywords): further options in setuptools (vs distutils)
