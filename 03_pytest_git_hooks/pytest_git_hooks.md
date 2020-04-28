@@ -93,6 +93,7 @@ If the tests fail, the commit will be rejected.
 
 **Links:**
 
+- [Real Python: Effective Python Testing With Pytest](https://realpython.com/pytest-python-testing/?utm_source=realpython&utm_medium=rss)
 - [13 Tips for Writing Useful Unit Tests](https://medium.com/better-programming/13-tips-for-writing-useful-unit-tests-ca20706b5368)
 - [Unit Testing and Why You Should Be Doing It](https://medium.com/better-programming/unit-testing-and-why-you-should-be-doing-it-ab61407c53ce)
 - [`pytest` documentation](https://docs.pytest.org/en/latest/)
