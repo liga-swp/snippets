@@ -12,7 +12,8 @@ This repository contains a collection of 'teasers' for interesting software deve
 9) List comprehensions/iterator/generator?
 10) Git branches?
 11) Testing on travis
-12)
+12) Debugging
+13) Refactoring
 
 For those who want to dig into Python:
 
