@@ -82,14 +82,18 @@ folders. This can be done on the command line or within a config files.
 
 **Hooks**
 
-I recommend always running flake8 before you commit. You have already learned one
-way to achieve this by using a git precommit hook. Personally, I'm not a huge fan
-of this method, because you may have to configure this for each individual git
-repository and machine, and it can be very annoying when intentionally committing
-false positives or bugs;)
+For every serious code base, it is a must have to run static analysis on every
+commit through continuous integration tools (such as GitHub Actions, or Travis
+CI).
 
-It is often much quicker, if you can directly integrate flake8 with your editor.
-For example, the excellent plugin
+Additionally, we recommend always running flake8 before you commit. You have
+already learned to achieve this by using a git precommit hook.
+
+It is even better and much quicker to directly integrate flake8 with your
+editor. Many IDEs have equivalent checks builtin, or provide them through
+plugins.
+
+For vim, the excellent plugin
 [vim-syntastic](https://github.com/vim-syntastic/syntastic) allows installing
 checking for issues whenever saving the current file. After loading the plugin
 you have to configure some settings, e.g.:
