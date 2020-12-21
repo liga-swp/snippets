@@ -9,9 +9,9 @@ This repository contains a collection of 'teasers' for interesting software deve
 6) [Python linter](./06_python_linter/python_linter.md)
 7) Pytest extended functionality?
 8) Building the documentation for your project?
-9) List comprehensions/iterator/generator?
+9) [List comprehensions](./09_list_comprehensions/list_comprehensions.rst)
 10) Git branches?
-11) Testing on travis
+11) Continuous Integration
 12) Debugging
 13) Refactoring
 
