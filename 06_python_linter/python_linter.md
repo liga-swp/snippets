@@ -63,14 +63,14 @@ Running ``flake8`` on the sample reports the syntax error in a heartbeat:
 
 ```bash
 $ flake8 sample.py
-sample.py:2:10: E999 SyntaxError: invalid syntax
+sample.py:3:10: E999 SyntaxError: invalid syntax
 ```
 
 And after fixing the issue, running flake8 again reveals possible runtime errors:
 
 ```bash
-sample.py:5:16: F821 undefined name 'sin'
-sample.py:5:25: F821 undefined name 'T'
+sample.py:6:16: F821 undefined name 'sin'
+sample.py:6:20: F821 undefined name 'x'
 ```
 
 **Customization:**
