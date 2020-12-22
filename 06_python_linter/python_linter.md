@@ -32,8 +32,6 @@ possible bugs or stylistic issues.
   it is much more strict in what it considers bad style by default, which can
   be quite overwhelming (i.e. it has a larger false positive rate)
 
-- [vim-syntastic](https://github.com/vim-syntastic/syntastic) vim plugin
-
 ---
 
 **Example:**
@@ -92,20 +90,6 @@ already learned to achieve this by using a git precommit hook.
 It is even better and much quicker to directly integrate flake8 with your
 editor. Many IDEs have equivalent checks builtin, or provide them through
 plugins.
-
-For vim, the excellent plugin
-[vim-syntastic](https://github.com/vim-syntastic/syntastic) allows installing
-checking for issues whenever saving the current file. After loading the plugin
-you have to configure some settings, e.g.:
-
-```vim
-" syntastic
-let g:syntastic_always_populate_loc_list = 0
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 1
-let g:syntastic_python_checkers = ['pyflakes']
-```
 
 I also recommend running flake8 as part of your automatic testing whenever
 commits are pushed to github. This will be part of a later snippet about
