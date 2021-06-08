@@ -76,7 +76,7 @@ def test_fib_arbitrary_length(n):
     assert result[:2] == [1, 1]
 
     for a, b, c in zip(result, result[1:], result[2:]):
-        assert a1 + a2 == a3
+        assert a + b == c
 ```
 **Side note**: The second test duplicates almost every line of the first one. This can be resolved by using [ parameterized tests ](https://docs.pytest.org/en/stable/parametrize.html) (also [here](https://www.youtube.com/watch?v=2EGgtlf7BN0)), which will not be addressed in this snippet.
 
