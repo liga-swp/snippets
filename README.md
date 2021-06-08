@@ -14,6 +14,9 @@ This repository contains a collection of 'teasers' for interesting software deve
 11) Continuous Integration
 12) Debugging
 13) Refactoring
+14) vectorization: numpy / pandas
+15) packages & imports
+16) unicode & encoding
 
 For those who want to dig into Python:
 
