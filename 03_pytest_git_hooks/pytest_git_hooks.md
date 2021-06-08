@@ -45,7 +45,7 @@ def fib(n):
     for _ in range(n):
         a, b = b, a + b
         numbers.append(a)
-    return a
+    return numbers
 ```
 
 We prepared two rudimentary tests for a custom implementation of addition in [tests.py](tests.py):
@@ -60,7 +60,7 @@ def test_fib_simple_cases():
 
 
 def test_fib_negative():
-    with pytest.assertRaises(ValueError):
+    with pytest.raises(ValueError):
         assert fib(-1)
 
 
@@ -87,15 +87,18 @@ We can now run pytest (setting the verbose flag `-v` for a more comprehensible o
 pytest -v tests.py
 ```
 ```bash
-================================================= test session starts =================================================
-(some version info)
+======================= test session starts =======================
+(platform info)
+collected 6 items
 
-collected 2 items
+tests.py::test_fib_simple_cases PASSED                      [ 16%]
+tests.py::test_fib_negative PASSED                          [ 33%]
+tests.py::test_fib_arbitrary_length[10] PASSED              [ 50%]
+tests.py::test_fib_arbitrary_length[20] PASSED              [ 66%]
+tests.py::test_fib_arbitrary_length[100] PASSED             [ 83%]
+tests.py::test_fib_arbitrary_length[1000] PASSED            [100%]
 
-tests.py::test_add_2_plus_2 PASSED                                                                              [ 50%]
-tests.py::test_add_100_plus_neg1 PASSED                                                                         [100%]
-
-============================================== 2 passed in 0.01 seconds ===============================================
+======================== 6 passed in 0.01s ========================
 ```
 
 ### Automation
