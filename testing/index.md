@@ -16,7 +16,7 @@
 - [`unittest`](https://docs.python.org/3/library/unittest.html)
 - [`pytest`](https://docs.pytest.org/en/latest/)
 
-There are also so called-linters like [flake8](https://flake8.pycqa.org/en/latest/) that perform for static analysis that can spot e.g. syntax errors, or undefined variables. For more info, see our [Python Linter](https://github.com/f-dangel/swp-snippets/blob/master/06_python_linter/python_linter.md) snippet.
+There are also so called-linters like [flake8](https://flake8.pycqa.org/en/latest/) that perform for static analysis that can spot e.g. syntax errors, or undefined variables. For more info, see our [Python Linter](../linter) snippet.
 
 You can install scripts that are executed at certain stages in `git`:
 
