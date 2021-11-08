@@ -1,26 +1,31 @@
-This repository contains a collection of 'teasers' for interesting software development tools (in Python). Each snippet contains a self-consistent copy-pastable illustration. It should not take more than 5min to parse a snippet.
+## Python Tooling and Code Snippets
 
-0) [Zen of Python](./00_zen_of_python/zen_of_python.md)
-1) [Auto-formatting](./01_auto_formatting/auto_formatting.md)
-2) [Git Branches](./02_git_branches/git_branches.md)
-3) [Write tests and run them frequently](./03_pytest_git_hooks/pytest_git_hooks.md)
-4) [Docstrings](./04_docstrings/docstrings.md)
-5) [Packaging](./05_packaging/packaging.md)
-6) [Python linter](./06_python_linter/python_linter.md)
-7) Pytest extended functionality?
-8) Building the documentation for your project?
-9) [List comprehensions](./09_list_comprehensions/list_comprehensions.rst)
-10) Git branches?
-11) Continuous Integration
-12) Debugging
-13) Refactoring
-14) vectorization: numpy / pandas
-15) packages & imports
-16) unicode & encoding
+This repository contains a collection of "teasers" for interesting software development tools in Python. Each snippet contains a self-consistent copy-pastable illustration. It should not take more than 5 minutes to parse a snippet.
 
-For those who want to dig into Python:
+#### [Overview](https://liga-swp.github.io/snippets):
 
-- [python-cheatsheet](https://gto76.github.io/python-cheatsheet/)
-- [wtfpython](https://github.com/satwikkansal/wtfpython): Exploring and understanding Python through surprising snippets
+0. [Zen of Python](https://liga-swp.github.io/snippets/00_zen_of_python/zen_of_python)
+0. [Auto-formatting](https://liga-swp.github.io/snippets/01_auto_formatting/auto_formatting)
+0. [Git Branches](https://liga-swp.github.io/snippets/02_git_branches/git_branches)
+0. [Write tests and run them frequently](https://liga-swp.github.io/snippets/03_pytest_git_hooks/pytest_git_hooks)
+0. [Docstrings](https://liga-swp.github.io/snippets/04_docstrings/docstrings)
+0. [Packaging](https://liga-swp.github.io/snippets/05_packaging/packaging)
+0. [Python linter](https://liga-swp.github.io/snippets/06_python_linter/python_linter)
+0. [List comprehensions](https://liga-swp.github.io/snippets/09_list_comprehensions/list_comprehensions)
+
+#### External references for those who want to dig deeper:
+
 - [clean-code-python](https://github.com/zedr/clean-code-python)
 - [code style](https://docs.python-guide.org/writing/style/)
+
+#### Ideas for future topics (to be writted):
+
+0. Pytest extended functionality?
+0. Building the documentation for your project?
+0. Git branches?
+0. Continuous Integration
+0. Debugging
+0. Refactoring
+0. vectorization: numpy / pandas
+0. packages & imports
+0. unicode & encoding
