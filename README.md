@@ -4,14 +4,14 @@ This repository contains a collection of "teasers" for interesting software deve
 
 #### [Overview](https://liga-swp.github.io/snippets):
 
-0. [Zen of Python](https://liga-swp.github.io/snippets/00_zen_of_python/zen_of_python)
-0. [Auto-formatting](https://liga-swp.github.io/snippets/01_auto_formatting/auto_formatting)
-0. [Git Branches](https://liga-swp.github.io/snippets/02_git_branches/git_branches)
-0. [Write tests and run them frequently](https://liga-swp.github.io/snippets/03_pytest_git_hooks/pytest_git_hooks)
-0. [Docstrings](https://liga-swp.github.io/snippets/04_docstrings/docstrings)
-0. [Packaging](https://liga-swp.github.io/snippets/05_packaging/packaging)
-0. [Python linter](https://liga-swp.github.io/snippets/06_python_linter/python_linter)
-0. [List comprehensions](https://liga-swp.github.io/snippets/09_list_comprehensions/list_comprehensions)
+0. [Zen of Python](https://liga-swp.github.io/snippets/zen)
+0. [Auto-formatting](https://liga-swp.github.io/snippets/auto_formatter)
+0. [Git Branches](https://liga-swp.github.io/snippets/git_branches)
+0. [Testing](https://liga-swp.github.io/snippets/testing)
+0. [Docstrings](https://liga-swp.github.io/snippets/docstrings)
+0. [Packaging](https://liga-swp.github.io/snippets/packaging)
+0. [Python linter](https://liga-swp.github.io/snippets/linter)
+0. [List comprehensions](https://liga-swp.github.io/snippets/list_comprehensions)
 
 #### External references for those who want to dig deeper:
 
