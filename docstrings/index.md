@@ -116,6 +116,38 @@ pydoc package.subpackage.submodule.class_.method
 There are also tools such as *sphinx* that use docstrings to auto-generate
 documentation for your project.
 
+**Docstring linting**
+
+For `python`, there are tools to check existing docstrings. One such tool is
+[`darglint`](https://github.com/terrencepreilly/darglint).
+
+You can install it via
+
+```bash
+pip install darglint
+```
+and tweaks its behavior as described in the
+[configuration docs](https://github.com/terrencepreilly/darglint#configuration).
+
+Let's run `darglint` in verbose mode against the second version of `fib` from
+above which lives in the [`fib.py`](fib.py) file:
+
+```bash
+darglint -v 2 fib.py
+```
+The output should look like this:
+
+```bash
+fib.py:fib:1: DAR101: Missing parameter(s) in Docstring: - n
+fib.py:fib:1: DAR201: Missing "Returns" in Docstring: - return
+```
+
+So, in order to fix `fib`'s documentation, we need to add documentation for its
+argument `n` and return value.
+
+Automated docstring checks with `darglint` via GitHub actions will improve the
+documentation of your code.
+
 ---
 
 **Links:** References and links to used materials and further reading
