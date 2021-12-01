@@ -18,7 +18,7 @@ This repository contains a collection of "teasers" for interesting software deve
 - [clean-code-python](https://github.com/zedr/clean-code-python)
 - [code style](https://docs.python-guide.org/writing/style/)
 
-#### Ideas for future topics (to be writted):
+#### Ideas for future topics (to be written):
 
 0. Pytest extended functionality?
 0. Building the documentation for your project?
