@@ -29,3 +29,4 @@ This repository contains a collection of "teasers" for interesting software deve
 0. vectorization: numpy / pandas
 0. packages & imports
 0. unicode & encoding
+0. command line arguments
