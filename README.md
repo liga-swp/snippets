@@ -22,7 +22,6 @@ This repository contains a collection of "teasers" for interesting software deve
 
 0. Pytest extended functionality?
 0. Building the documentation for your project?
-0. Git branches?
 0. Continuous Integration
 0. Debugging
 0. Refactoring
