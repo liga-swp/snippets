@@ -5,13 +5,13 @@ This repository contains a collection of "teasers" for interesting software deve
 #### [Overview](https://liga-swp.github.io/snippets):
 
 0. [Zen of Python](https://liga-swp.github.io/snippets/zen)
-0. [Auto-formatting](https://liga-swp.github.io/snippets/auto_formatter)
 0. [Git Branches](https://liga-swp.github.io/snippets/git_branches)
 0. [Testing](https://liga-swp.github.io/snippets/testing)
 0. [Docstrings](https://liga-swp.github.io/snippets/docstrings)
-0. [Packaging](https://liga-swp.github.io/snippets/packaging)
 0. [Python linter](https://liga-swp.github.io/snippets/linter)
+0. [Packaging](https://liga-swp.github.io/snippets/packaging)
 0. [List comprehensions](https://liga-swp.github.io/snippets/list_comprehensions)
+0. [Auto-formatting](https://liga-swp.github.io/snippets/auto_formatter)
 
 #### External references for those who want to dig deeper:
 
@@ -20,12 +20,10 @@ This repository contains a collection of "teasers" for interesting software deve
 
 #### Ideas for future topics (to be written):
 
-0. Pytest extended functionality?
-0. Building the documentation for your project?
-0. Continuous Integration
-0. Debugging
-0. Refactoring
 0. vectorization: numpy / pandas
 0. packages & imports
 0. unicode & encoding
 0. command line arguments
+0. Pytest extended functionality?
+0. Building html documentation / sphinx?
+0. Debugging (pdb)
