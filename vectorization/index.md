@@ -76,8 +76,8 @@ make use of the speedup, so don't use `sum(xs)`, but rather `np.sum(x)` or
   - boolean masks can be used to index arrays, e.g.: `x[(x < 3) | (x > 5)]`
 
 - adding dimensions:
-  - `x[None, :]` is a 1×N array (same as `x.reshape(1, -1)`)
-  - `x[:, None]` is a N×1 array (same as `x.reshape(-1, 1)`)
+  - `x[None, ...]` is a 1×(…) array (same as `x.reshape(1, *x.shape)`)
+  - `x[..., None]` is a (…)×1 array (same as `x.reshape(*x.shape, 1)`)
 
 - broadcasting: `np.arange(5)[:, None] * np.arange(3)[None, :]` is a 5×3 array
 - numpy defines many mathematical functions that act elementwise (sin, cos,
