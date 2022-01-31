@@ -12,6 +12,7 @@ This repository contains a collection of "teasers" for interesting software deve
 0. [Packaging](https://liga-swp.github.io/snippets/packaging)
 0. [List comprehensions](https://liga-swp.github.io/snippets/list_comprehensions)
 0. [Auto-formatting](https://liga-swp.github.io/snippets/auto_formatter)
+0. [Vectorization](https://liga-swp.github.io/snippets/vectorization)
 
 #### External references for those who want to dig deeper:
 
@@ -20,7 +21,6 @@ This repository contains a collection of "teasers" for interesting software deve
 
 #### Ideas for future topics (to be written):
 
-0. vectorization: numpy / pandas
 0. packages & imports
 0. unicode & encoding
 0. command line arguments
