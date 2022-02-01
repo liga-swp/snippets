@@ -101,7 +101,9 @@ DataFrame can have:
 pandas also provides many useful functions that often come up in the context
 of data analysis, such as:
 
-- grouping by specified column values (`DataFrame.groupby()`)
+- grouping by specified column values (e.g. compute mean goal rate of and
+  against each team when playing at home:
+  `match_data.groupby('HomeTeam').mean()`)
 - joining tables (`pandas.join()`, `pandas.merge()`, …)
 - converting columns into indexes and vice versa (`DataFrame.stack()`,
   `DataFrame.unstack()`).
