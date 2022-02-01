@@ -45,7 +45,6 @@ import numpy as np
 xs = np.arange(10_000_000)
 ys = np.arange(10_000_000)
 result = np.sqrt(xs**2 + ys**2).mean()
-print(f"{result=}")
 ```
 
 Run time (see [source](./vectorization.py)):
