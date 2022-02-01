@@ -112,8 +112,8 @@ Example (simple algorithm):
 match_data = pd.DataFrame(...)    # fetch from OpenLigaDB
 
 matches = match_data[
-  ((match_data.HomeTeam == 'Stuttgart') &
-  (match_data.AwayTeam == 'Nürnberg') |
+  (match_data.HomeTeam == 'Stuttgart') &
+  (match_data.AwayTeam == 'Nürnberg')
 ]
 
 home = matches.HomeGoals > matches.AwayGoals
